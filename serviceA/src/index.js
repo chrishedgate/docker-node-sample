@@ -1,4 +1,4 @@
-var main = require('./server');
+var main = require('./lib/server');
 
 if (require.main === module) { 
     main.start();
